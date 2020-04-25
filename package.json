@@ -1,0 +1,36 @@
+{
+	"name": "ts-transform-paths-bug-repro",
+	"version": "1.0.0",
+	"description": "Bug when tranforming paths to JS files.",
+	"main": "dist/main.js",
+	"author": "Igor Szymański",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "node dist/main.js",
+		"start:dev": "ts-node-dev --compiler ttypescript src/main.ts",
+		"build": "ttsc",
+		"lint": "prettier --check \"./**/*.{js,ts,json}\"",
+		"lint:fix": "prettier --write \"./**/*.{js,ts,json}\""
+	},
+	"devDependencies": {
+		"@types/node": "13.13.2",
+		"@zerollup/ts-transform-paths": "1.7.17",
+		"husky": "4.2.5",
+		"lint-staged": "10.1.7",
+		"prettier": "^2.0.5",
+		"pretty-quick": "^2.0.1",
+		"ts-node": "8.9.0",
+		"ts-node-dev": "1.0.0-pre.44",
+		"ttypescript": "1.5.10",
+		"typescript": "3.8.3"
+	},
+	"lint-staged": {
+		"*.{js,ts}": "prettier --write"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	}
+}
