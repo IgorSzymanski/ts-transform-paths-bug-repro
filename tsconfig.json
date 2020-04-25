@@ -2,27 +2,27 @@
 	"compilerOptions": {
 		"lib": ["esnext", "es6", "dom"],
 		"module": "commonjs",
-        "moduleResolution": "node",
-        "target": "es2018",
-		
+		"moduleResolution": "node",
+		"target": "es2018",
+
 		"noLib": false,
 		"skipLibCheck": true,
-		
+
 		"allowSyntheticDefaultImports": true,
 		"esModuleInterop": true,
 		"emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        
-        "strict": true,
-        "strictNullChecks": true,
+		"experimentalDecorators": true,
+
+		"strict": true,
+		"strictNullChecks": true,
 		"noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noImplicitAny": true,
-        "forceConsistentCasingInFileNames": true,
-        
-        "declaration": false,
+		"noUnusedParameters": true,
+		"noImplicitAny": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"declaration": false,
 		"removeComments": true,
-        "sourceMap": false,
+		"sourceMap": false,
 
 		"allowJs": true,
 		"checkJs": false,

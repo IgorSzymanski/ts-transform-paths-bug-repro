@@ -16,7 +16,7 @@
 	"devDependencies": {
 		"@types/node": "13.13.2",
 		"@zerollup/ts-transform-paths": "1.7.17",
-		"husky": "4.2.5",
+		"husky": "^4.2.5",
 		"lint-staged": "10.1.7",
 		"prettier": "^2.0.5",
 		"pretty-quick": "^2.0.1",
