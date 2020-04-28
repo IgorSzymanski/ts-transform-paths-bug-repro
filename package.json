@@ -9,6 +9,8 @@
 	"scripts": {
 		"start": "node dist/main.js",
 		"start:dev": "ts-node-dev --compiler ttypescript src/main.ts",
+		"start:transpile": "ts-node --transpile-only --compiler ttypescript src/main.ts",
+		"start:live": "ts-node --compiler ttypescript src/main.ts",
 		"build": "ttsc",
 		"lint": "prettier --check \"./**/*.{js,ts,json}\"",
 		"lint:fix": "prettier --write \"./**/*.{js,ts,json}\""

@@ -35,7 +35,7 @@
 		"plugins": [
 			{
 				"transform": "@zerollup/ts-transform-paths",
-                                "tryLoadJs": true
+				"tryLoadJs": true
 			}
 		]
 	},
